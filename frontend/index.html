@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wykop Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">WykopClone</div>
+            <div class="nav-links">
+                <a href="#">Mikroblog</a>
+                <a href="#">Znaleziska</a>
+                <a href="#" class="btn-login">Zaloguj się</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container layout">
+        <section class="feed" id="posts-container">
+            <!-- Tutaj JavaScript będzie wstrzykiwał posty z backendu -->
+            <div class="post-loading">Ładowanie wpisów...</div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h3>Popularne Tagi</h3>
+                <div class="tags">
+                    <span class="tag">#programowanie</span>
+                    <span class="tag">#python</span>
+                    <span class="tag">#heheszki</span>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
